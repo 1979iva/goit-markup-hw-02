@@ -1,20 +1,50 @@
-.page{
+.body{
     background-color: #F5F5F5;
     color: #212121;
 }
-
-.logo{
+.logo1{
     color: #2196F3;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
 }
-
+.logo2{
+    color: #000000;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
 .list{
     list-style: none;
 }
+a.text{
+    text-decoration: none;
+}
+.studio{
+color: #2196F3;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+}
+
+
+
+
+/* колір хедера #FFFFFF */
+/* колір main title #2F303A  */
+/* колір наші переваги та чим займаємось #F5F5F5 */
+/* колір наша команда #F5F4FA*.
 
 /*колір головного тексту #212121*/
-/*колір другорядного тексту #757575*/
+/*колір */
 
 /*білій колір #FFFFFF*/
 /*голубий колір*/
 /*акцент #2196F3*/
-/*  */
