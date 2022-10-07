@@ -7,12 +7,13 @@ body{
     background-color: #FFFFFF;
     color: #212121;
 }
-.list{
+ul {
     list-style: none;
 }
-.text{
-    text-decoration: none;
-}
+a {
+    text-decoration:none;
+  }
+
 /* Header */
 .logo1{
     color: #2196F3;
@@ -22,6 +23,10 @@ body{
     line-height: 31px;
     letter-spacing: 0.03em;
 }
+.logo1:hover,
+.logo1:focus{
+    color:#2196F3;
+}
 .logo2{
     color: #000000;
     font-style: normal;
@@ -30,58 +35,49 @@ body{
     line-height: 31px;
     letter-spacing: 0.03em;
 }
+.logo2:hover,
+.logo2:focus{
+    color: #000000;
+}
 
-.studio{
-color: #2196F3;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
+.site-nav .menu{
+    color: #212121;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 }
-.studio:hover{
-    text-decoration: underline #2196F3
-}
-.portfolio{
-color: #212121;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-}
-.portfolio:hover{
-    text-decoration: underline #2196F3;
-}
-.contaсts{
-color: #212121;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-}
-.contaсts:hover{
-    text-decoration: underline #2196F3;
-}
+.site-nav .menu:hover,
+.site-nav .menu:focus{
+    color: #2196F3;
 }
 .mail{
-color: #2196F3;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
+    color: #2196F3;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+.mail:hover,
+.mail:focus{
+    color: #2196F3;
 }
 .tel{
-color: #757575;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
+    color: #757575;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 }
+.tel:hover,
+.tel:focus{
+    color: #757575;
+}
+
 /* main */
 /* main business-solusions  */
 .business-solusions{
