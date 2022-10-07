@@ -13,7 +13,12 @@ ul {
 a {
     text-decoration:none;
   }
-
+.section-title{
+    color: #212121;
+}
+.subsection-text{
+    color: #757575;
+}
 /* Header */
 .logo1{
     color: #2196F3;
@@ -80,13 +85,17 @@ a {
 
 /* main */
 /* main business-solusions  */
-.business-solusions{
+.hat{
 background-color: #2F303A;
 }
-.h1{
+.hero-hat{
 color: #FFFFFF;
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
 }
-.button{
+.button-hat{
 background-color: #2196F3;
 color: #FFFFFF;
 font-style: normal;
@@ -95,9 +104,7 @@ font-size: 16px;
 line-height: 30px;
 }
 /* main our advantages */
-.h3-our-advantages{
-    color: #212121;
-}
+
 .p-our-advantages{
     color: #757575;
 }
