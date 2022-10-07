@@ -1,7 +1,19 @@
+/* general edits */
+body{
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
 .body{
-    background-color: #F5F5F5;
+    background-color: #FFFFFF;
     color: #212121;
 }
+.list{
+    list-style: none;
+}
+.text{
+    text-decoration: none;
+}
+/* Header */
 .logo1{
     color: #2196F3;
     font-style: normal;
@@ -18,12 +30,7 @@
     line-height: 31px;
     letter-spacing: 0.03em;
 }
-.list{
-    list-style: none;
-}
-a.text{
-    text-decoration: none;
-}
+
 .studio{
 color: #2196F3;
 font-family: 'Roboto';
@@ -33,11 +40,72 @@ font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
 }
+.studio:hover{
+    text-decoration: underline #2196F3
+}
+.portfolio{
+color: #212121;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+}
+.portfolio:hover{
+    text-decoration: underline #2196F3;
+}
+.contaсts{
+color: #212121;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+}
+.contaсts:hover{
+    text-decoration: underline #2196F3;
+}
+}
+.mail{
+color: #2196F3;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+}
+.tel{
+color: #757575;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+}
+/* main */
+/* main business-solusions  */
+.business-solusions{
+background-color: #2F303A;
+}
+.h1{
+color: #FFFFFF;
+}
+.button{
+background-color: #2196F3;
+color: #FFFFFF;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+}
+/* main our advantages */
+.h3-our-advantages{
+    color: #212121;
+}
+.p-our-advantages{
+    color: #757575;
+}
 
-
-
-
-/* колір хедера #FFFFFF */
 /* колір main title #2F303A  */
 /* колір наші переваги та чим займаємось #F5F5F5 */
 /* колір наша команда #F5F4FA*.
