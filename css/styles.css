@@ -3,6 +3,9 @@ body{
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
+:root{
+    --text: #757575;
+}
 .body{
     background-color: #FFFFFF;
     color: #212121;
@@ -17,7 +20,7 @@ a {
     color: #212121;
 }
 .subsection-text{
-    color: #757575;
+    color: var(--text);
 }
 /* Header */
 .logo1{
@@ -103,11 +106,53 @@ font-weight: 700;
 font-size: 16px;
 line-height: 30px;
 }
-/* main our advantages */
-
-.p-our-advantages{
-    color: #757575;
+/* team*/
+.team{
+    background-color: #F5F4FA;
 }
+/* footer */
+.footer{
+    background-color: #2F303A;
+}
+.logo3{
+    color: #FFFFFF;
+    font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+}
+.logo3:hover,
+.logo3:focus{
+    color: #FFFFFF;
+}
+.address-footer .map-footer{
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+.map-footer:hover,
+.map-footer:focus{
+    color: #FFFFFF;
+}
+.address-footer .contacts-footer{
+    color: #FFFFFF99;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+.contacts-footer:hover,
+.contacts-footer:focus{
+    color: #FFFFFF99;
+}
+
+
+
 
 /* колір main title #2F303A  */
 /* колір наші переваги та чим займаємось #F5F5F5 */
