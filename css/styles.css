@@ -61,6 +61,11 @@ a {
 .site-nav .menu:focus{
     color: #2196F3;
 }
+.site-nav .menu.curent {
+    color: #2196F3;
+}
+
+
 .mail{
     color: #2196F3;
     font-style: normal;
