@@ -108,7 +108,6 @@ color: #FFFFFF;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.88;
-position: absolute;
 width: 216px;
 height: 50px;
 left: 692px;
@@ -157,17 +156,37 @@ top: 430px;
 .contacts-footer:focus{
     color: #FFFFFF99;
 }
+/* portfolio  */
+.cards-title{
+    color: #212121;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.cards-text{
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+}
 
-
-
-
-/* колір main title #2F303A  */
-/* колір наші переваги та чим займаємось #F5F5F5 */
-/* колір наша команда #F5F4FA*.
-
-/*колір головного тексту #212121*/
-/*колір */
-
-/*білій колір #FFFFFF*/
-/*голубий колір*/
-/*акцент #2196F3*/
+.button.primary{
+    color: rgba(33, 33, 33, 1);
+    background-color: #F5F4FA;
+    height: 38px;
+    left: 726px;
+    top: 174px;
+    border-radius: 4px;
+    
+}
+.button.secondary{
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(33, 150, 243, 1);
+    width: 73px;
+    height: 38px;
+    left: 512px;
+    top: 174px;
+    border-radius: 4px;
+}
