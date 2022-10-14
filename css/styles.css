@@ -22,13 +22,15 @@ a {
 .subsection-text{
     color: var(--text);
 }
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+    }
 /* Header */
 .logo1{
     color: #2196F3;
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.2;
     letter-spacing: 0.03em;
 }
 .logo1:hover,
@@ -37,10 +39,9 @@ a {
 }
 .logo2{
     color: #000000;
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.2;
     letter-spacing: 0.03em;
 }
 .logo2:hover,
@@ -50,11 +51,9 @@ a {
 
 .site-nav .menu{
     color: #212121;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 }
 .site-nav .menu:hover,
@@ -68,10 +67,9 @@ a {
 
 .mail{
     color: #2196F3;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 }
 .mail:hover,
@@ -79,11 +77,10 @@ a {
     color: #2196F3;
 }
 .tel{
-    color: #757575;
-    font-style: normal;
+    color: #757575;    
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 }
 .tel:hover,
@@ -98,18 +95,24 @@ background-color: #2F303A;
 }
 .hero-hat{
 color: #FFFFFF;
-font-style: normal;
 font-weight: 900;
 font-size: 44px;
-line-height: 60px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
 }
 .button-hat{
 background-color: #2196F3;
 color: #FFFFFF;
-font-style: normal;
 font-weight: 700;
 font-size: 16px;
-line-height: 30px;
+line-height: 1.88;
+position: absolute;
+width: 216px;
+height: 50px;
+left: 692px;
+top: 430px;
 }
 /* team*/
 .team{
@@ -121,35 +124,34 @@ line-height: 30px;
 }
 .logo3{
     color: #FFFFFF;
-    font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 31px;
-letter-spacing: 0.03em;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
 }
 .logo3:hover,
 .logo3:focus{
     color: #FFFFFF;
 }
-.address-footer .map-footer{
+.map-footer{
     color: #FFFFFF;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.contacts-footer{
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
 }
 .map-footer:hover,
 .map-footer:focus{
     color: #FFFFFF;
-}
-.address-footer .contacts-footer{
-    color: #FFFFFF99;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
 }
 .contacts-footer:hover,
 .contacts-footer:focus{
