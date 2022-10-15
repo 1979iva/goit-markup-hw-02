@@ -122,6 +122,9 @@ top: 430px;
 .team{
     background-color: #F5F4FA;
 }
+.team-list{
+    background-color: #fff;
+}
 /* footer */
 .footer{
     background-color: #2F303A;
