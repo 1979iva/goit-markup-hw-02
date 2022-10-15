@@ -113,6 +113,11 @@ height: 50px;
 left: 692px;
 top: 430px;
 }
+.cursor{
+    cursor: pointer;
+    background-color: rgba(24, 140, 232, 1);
+    border-radius: 4px;
+}
 /* team*/
 .team{
     background-color: #F5F4FA;
@@ -189,4 +194,8 @@ top: 430px;
     left: 512px;
     top: 174px;
     border-radius: 4px;
+}
+.button.secondary:hover,
+.button.secondary:focus{
+    color: #2196F3;    
 }
