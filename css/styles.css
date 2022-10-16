@@ -67,7 +67,7 @@ h1,h2,h3,h4,h5,h6{
 
 
 .mail{
-    color: #2196F3;
+    color: #757575;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -75,7 +75,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .mail:hover,
 .mail:focus{
-    color: #757575;
+    color: #2196F3;
 }
 .tel{
     color: #757575;    
