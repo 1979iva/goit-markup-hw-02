@@ -104,9 +104,10 @@ letter-spacing: 0.06em;
 text-transform: uppercase;
 }
 .button-hat{
-background-color: #2196F3;
+background-color: #188CE8;
 color: #FFFFFF;
-font-weight: 700;
+font-family: Roboto;
+font-weight: 700;   
 font-size: 16px;
 line-height: 1.88;
 width: 216px;
@@ -116,7 +117,7 @@ top: 430px;
 }
 .button-hat:hover,
 .button-hat:focus{
-    color: #757575;
+    background-color: #2196F3;
 }
 .cursor{
     cursor: pointer;
