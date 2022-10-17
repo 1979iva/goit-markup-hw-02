@@ -129,13 +129,13 @@ top: 430px;
 /* особливості */
 .subsection-text-features{
     color: var(--text);
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
-/* Заголовки для - about та team */
-.section-features-team{   
+/* Напрямки */
+/* Заголовки для - direction */
+.directions-photo{   
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -143,9 +143,15 @@ top: 430px;
     letter-spacing: 0.03em;
 }
 /* team*/
-.team{
+.people{
     background-color: #F5F4FA;
     }
+.people-team{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
     .team-list{
         background-color: #fff;
     }
@@ -154,16 +160,16 @@ top: 430px;
     font-size: 16px;
     line-height: 1.19px;    
 }
-.team-subsection-text{
-    font-weight: 400;
+.team-subsection{
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19px;
 }
 /* footer */
 .footer{
     background-color: #2F303A;
 }
 .logo3{
+    font-family: Raleway;
     color: #FFFFFF;
     font-weight: 700;
     font-size: 26px;
@@ -177,7 +183,6 @@ top: 430px;
 .map-footer{
     color: #FFFFFF;
     font-style: normal; 
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -185,7 +190,6 @@ top: 430px;
 .contacts-footer{
     color: rgba(255, 255, 255, 0.6);
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -235,7 +239,6 @@ top: 430px;
 }
 .cards-text{
     color: #757575;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
