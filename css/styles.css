@@ -5,10 +5,13 @@ body{
 }
 :root{
     --text: #757575;
+    --primary-text-color: #212121;
+    --button-primary-color: #212121;
+    --button-primary-background-color: #F5F4FA;
 }
 .body{
     background-color: #FFFFFF;
-    color: #212121;
+    color: var(--primary-text-color);
 }
 ul {
     list-style: none;
@@ -17,7 +20,6 @@ a {
     text-decoration:none;
   }
 .section-title{
-    color: #212121;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -204,8 +206,8 @@ top: 430px;
 }
 /* portfolio  */
 .button.primary{
-    color: #212121;
-    background-color: #F5F4FA;
+    color: var(--button-primary-color);
+    background-color: var(--button-primary-background-color);
     height: 38px;
     left: 726px;
     top: 174px;
@@ -231,14 +233,14 @@ top: 430px;
     color: #212121;    
 }
 .cards-title{
-    color: #212121;
+    color: var(--primary-text-color);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
 }
 .cards-text{
-    color: #757575;
+    color: var(--text);
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
